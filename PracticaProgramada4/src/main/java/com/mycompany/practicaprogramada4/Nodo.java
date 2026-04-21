@@ -11,8 +11,10 @@ package com.mycompany.practicaprogramada4;
 
 public class Nodo {
     Nodo siguiente;
+    int destino;
 
     public Nodo(int destino) {
+        this.destino = destino;
         this.siguiente = null;
     }
 }
